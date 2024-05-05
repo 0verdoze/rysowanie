@@ -1,0 +1,12 @@
+{
+  "name": "rysowanie",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "tsc && cp src/index.html out/ && cp src/style.css out/ && cp -r icons/ out/icons"
+  },
+  "author": "",
+  "dependencies": {
+    "typescript": "^5.4.5"
+  }
+}
